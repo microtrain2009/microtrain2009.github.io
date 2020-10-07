@@ -103,12 +103,18 @@
   }
 
 /** clear floats */
-@mixin clearfix() {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
 }
 
 // resume styling
